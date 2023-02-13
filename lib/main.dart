@@ -49,6 +49,12 @@ class SecondRoute extends StatelessWidget {
           },
           child: Text('Go back'),
         ),
+        onPressed: () {
+            Navigator.pop(context);
+          },
+          child: Text('Go back'),
+        ),
+        
       ),
     );
   }
