@@ -11,7 +11,7 @@ class FirstRoute extends StatelessWidget {
       body: Center(
         child: MaterialButton(
           child: Text('Click Here'),
-          color: Colors.orangeAccent,
+          color: Color.fromARGB(255, 64, 109, 255),
           onPressed: () {
             Navigator.push(
               context,
